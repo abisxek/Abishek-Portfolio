@@ -1,4 +1,4 @@
-import logo from "../assets/AbishekRLogo.png"
+import logo from "../assets/AbishekRLogo.svg"
 import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 
 const Navbar = () => {
@@ -13,13 +13,13 @@ const Navbar = () => {
                 <img className="mx-2 w-10" src={logo} alt="logo" />
             </div>
             <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-                <a href="https://linkedin.com/in/anikethhebbar/" target="_blank" rel="noopener noreferrer" className="icon">
+                <a href="https://www.linkedin.com/in/abishek-r-457b43245/" target="_blank" rel="noopener noreferrer" className="icon">
                     <FaLinkedin />
                 </a>
-                <a href="https://github.com/anikethhebbar" target="_blank" rel="noopener noreferrer" className="icon">
+                <a href="https://github.com/abisxek" target="_blank" rel="noopener noreferrer" className="icon">
                     <FaGithub />
                 </a>
-                <a href="https://instagram.com/aniketh.hebbar" target="_blank" rel="noopener noreferrer" className="icon">
+                <a href="https://www.instagram.com/abisxek/" target="_blank" rel="noopener noreferrer" className="icon">
                     <FaInstagram />
                 </a>
             </div>

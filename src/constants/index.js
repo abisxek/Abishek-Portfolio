@@ -9,32 +9,32 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "Jun, 2024 - Present",
+    role: "Automation and ML Engineer",
+    company: "Lokibots, Inc.",
+    description: `
+      • Led the end-to-end development of automation bots based on client-specific requirements, ensuring smooth task execution and delivery.
+      • Managed the complete process, including client consultations, design, implementation, documentation, and presentations.
+      • Implemented text-to-action workflows using LangChain, automating tool selection and execution from a pre-defined set of tools based on natural language inputs.`,
+    technologies: ["Selenium", "Pandas", "NLTK", "LangChain","OpenAI","LangGraph","PyAutoGUI","Openpyxl","PyPDF"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    year: "Feb, 2024 - Jun, 2024",
+    role: "ML Research Intern",
+    company: "ChemBio AI",
+    description: `
+          • Developed a comprehensive web-based platform for integrative omics data analysis and machine learning applications.
+          • Recreated the Deseq library from R to Python using Pandas, facilitating enhanced data manipulation and analysis..
+          • Implemented an ensemble of feature selection techniques such as Minimum Redundancy Maximum Relevance (MRMR), Recursive Feature Elimination (RFE), and Boruta to improve model performance
+          • Executed binary classification of genes as biomarkers or non-biomarkers using machine learning algorithms, achieving an accuracy of 90% in predicting biomarkers.`,
+    technologies: ["Pandas", "Sci-kit Learn", "Numpy", "Boruta","PyMRMR","imblearn","SciPY"],
   },
   {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
+    year: "Sep, 2023 - Dec, 2023",
+    role: "NLP Intern",
+    company: "Infogen Labs",
     description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
     technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
   },
 ];
 
@@ -70,7 +70,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
+  address: "Bengaluru, India ",
   phoneNo: "+91-6362123737",
   email: "abisxek@gmail.com",
 };
