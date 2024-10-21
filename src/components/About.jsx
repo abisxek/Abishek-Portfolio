@@ -4,7 +4,7 @@ import {motion } from "framer-motion"
 
 
 const About = () => {
-  const resumeLink = "https://drive.google.com/file/d/1J0hi_wKKs-Y3SBdX5qWep-d10X52Dg3s/view?usp=drive_link"; 
+  const resumeLink = "https://drive.google.com/file/d/1B8ZrPEhc_UdBCtc7rPjlRzTpyRkEcOlP/view?usp=sharing"; 
 
   return (
     <div className="border-b border-neutral-900 pb-4">
